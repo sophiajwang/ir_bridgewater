@@ -2,19 +2,33 @@
   {
     "interaction_id": 0,
     "from_nodes": [
-      2
+      0
     ],
     "to_nodes": [
       1
     ],
     "from_color": ["red"],
     "to_color": null,
-    "interaction_description": "Debt growth is being used to finance activities that produce fast income growth.",
+    "interaction_description": "Debt growth is being used to finance economic activities.",
     "step_id": 0,
     "edge_type": null
   },
   {
     "interaction_id": 1,
+    "from_nodes": [
+      1
+    ],
+    "to_nodes": [
+      2
+    ],
+    "from_color": null,
+    "to_color": ["green"],
+    "interaction_description": "These activities produce fast income growth.",
+    "step_id": 0,
+    "edge_type": "increase"
+  },
+  {
+    "interaction_id": 2,
     "from_nodes": [
       1
     ],
@@ -28,7 +42,7 @@
     "edge_type": "increase"
   },
   {
-    "interaction_id": 2,
+    "interaction_id": 3,
     "from_nodes": [
       5
     ],
@@ -42,7 +56,7 @@
     "edge_type": null
   },
   {
-    "interaction_id": 3,
+    "interaction_id": 4,
     "from_nodes": [
       6
     ],
@@ -51,12 +65,12 @@
     ],
     "from_color": null,
     "to_color": ["red"],
-    "interaction_description": "Moderate lending policy (moderate interests rates).",
+    "interaction_description": "Moderate lending policy (moderate interests rates)",
     "step_id": 0,
     "edge_type": null
   },
   {
-    "interaction_id": 4,
+    "interaction_id": 5,
     "from_nodes": [
       0
     ],
@@ -70,21 +84,21 @@
     "edge_type": "increase"
   },
   {
-    "interaction_id": 5,
+    "interaction_id": 6,
     "from_nodes": [
-      9
+      9,4,2
     ],
     "to_nodes": [
       10
     ],
-    "from_color": ["green"],
+    "from_color": null,
     "to_color": null,
     "interaction_description": "This process is generally self-reinforcing because rising incomes, net-worths, and asset values raise borrowers’ capacities to borrow. This happens because lenders determine how much they can lend on the basis of the borrowers’ 1) projected income/cash flows to service the debt, 2) net worth/collateral (which rises as asset prices rise), and 3) their own capacities to lend. All of these rise together.",
     "step_id": 1,
-    "edge_type": null
+    "edge_type": "increase"
   },
   {
-    "interaction_id": 6,
+    "interaction_id": 7,
     "from_nodes": [
       10
     ],
@@ -98,7 +112,7 @@
     "edge_type": "increase"
   },
   {
-    "interaction_id": 6,
+    "interaction_id": 8,
     "from_nodes": [
       0
     ],
@@ -112,7 +126,7 @@
     "edge_type": null
   },
   {
-    "interaction_id": 7,
+    "interaction_id": 9,
     "from_nodes": [
       11
     ],
@@ -126,12 +140,12 @@
     "edge_type": "increase"
   },
   {
-    "interaction_id": 8,
+    "interaction_id": 10,
     "from_nodes": [
       6
     ],
     "to_nodes": [
-      12
+      13
     ],
     "from_color": null,
     "to_color": null,
@@ -140,9 +154,9 @@
     "edge_type": "decrease"
   },
   {
-    "interaction_id": 9,
+    "interaction_id": 11,
     "from_nodes": [
-      12
+      13
     ],
     "to_nodes": [
       4
@@ -154,12 +168,12 @@
     "edge_type": "increase"
   },
   {
-    "interaction_id": 10,
+    "interaction_id": 12,
     "from_nodes": [
       4
     ],
     "to_nodes": [
-      13
+      14
     ],
     "from_color": ["green"],
     "to_color": null,
@@ -168,12 +182,12 @@
     "edge_type": null
   },
   {
-    "interaction_id": 11,
+    "interaction_id": 13,
     "from_nodes": [
       4
     ],
     "to_nodes": [
-      10
+      11
     ],
     "from_color": ["green"],
     "to_color": null,
@@ -182,12 +196,26 @@
     "edge_type": "increase"
   },
   {
-    "interaction_id": 12,
+    "interaction_id": 14,
+    "from_nodes": [
+      11
+    ],
+    "to_nodes": [
+      8
+    ],
+    "from_color": null,
+    "to_color": null,
+    "interaction_description": "Lending increased and became riskier, increasingly occurring outside the regulated and protected banking system. Financial institutions built new channels ("shadow banking") to get around the more established and better-regulated ones because it is initially advantageous to everyone involved. Fewer regulations make it cheaper to lend, borrowers get lower rates and easier terms, and investors get a small boost to returns. Shadow banks make these new debt assets seem safe via guarantees or through asset packaging. Often, these “innovations” lead to the crisis.",
+    "step_id": 1,
+    "edge_type": null
+  },
+  {
+    "interaction_id": 15,
     "from_nodes": [
       6
     ],
     "to_nodes": [
-      12
+      13
     ],
     "from_color": null,
     "to_color": null,
@@ -196,12 +224,12 @@
     "edge_type": "invalid"
   },
   {
-    "interaction_id": 13,
+    "interaction_id": 16,
     "from_nodes": [
       6
     ],
     "to_nodes": [
-      12
+      13
     ],
     "from_color": null,
     "to_color": null,
@@ -210,9 +238,9 @@
     "edge_type": "increase"
   },
   {
-    "interaction_id": 14,
+    "interaction_id": 17,
     "from_nodes": [
-      12
+      13
     ],
     "to_nodes": [
       4
@@ -224,7 +252,7 @@
     "edge_type": "decrease"
   },
   {
-    "interaction_id": 15,
+    "interaction_id": 18,
     "from_nodes": [
       4
     ],
@@ -238,7 +266,7 @@
     "edge_type": "decrease"
   },
   {
-    "interaction_id": 16,
+    "interaction_id": 19,
     "from_nodes": [
       4
     ],
@@ -252,7 +280,7 @@
     "edge_type": null
   },
   {
-    "interaction_id": 17,
+    "interaction_id": 20,
     "from_nodes": [
       8
     ],
@@ -266,12 +294,12 @@
     "edge_type": null
   },
   {
-    "interaction_id": 18,
+    "interaction_id": 21,
     "from_nodes": [
       10
     ],
     "to_nodes": [
-      13
+      14
     ],
     "from_color": null,
     "to_color": ["green"],
@@ -280,9 +308,9 @@
     "edge_type": "increase"
   },
   {
-    "interaction_id": 19,
+    "interaction_id": 22,
     "from_nodes": [
-      13
+      14
     ],
     "to_nodes": [
       8
@@ -294,12 +322,12 @@
     "edge_type": null
   },
   {
-    "interaction_id": 20,
+    "interaction_id": 23,
     "from_nodes": [
       8
     ],
     "to_nodes": [
-      14
+      15
     ],
     "from_color": null,
     "to_color": ["green"],
@@ -308,9 +336,9 @@
     "edge_type": "increase"
   },
   {
-    "interaction_id": 21,
+    "interaction_id": 24,
     "from_nodes": [
-      14
+      15
     ],
     "to_nodes": [
       8
@@ -322,23 +350,23 @@
     "edge_type": null
   },
   {
-    "interaction_id": 22,
+    "interaction_id": 25,
     "from_nodes": [
       10
     ],
     "to_nodes": [
-      11
+      12
     ],
-    "from_color": null,
+    "from_color": ["red"],
     "to_color": null,
     "interaction_description": "Runs from risky assets to less risky assets pick up, contributing to a broadening of the contraction. This hurts spending and lowers investment rates while also making it less appealing to borrow to buy financial assets.",
     "step_id": 2,
     "edge_type": null
   },
   {
-    "interaction_id": 23,
+    "interaction_id": 26,
     "from_nodes": [
-      11
+      12
     ],
     "to_nodes": [
       4
@@ -350,7 +378,7 @@
     "edge_type": "decrease"
   },
   {
-    "interaction_id": 24,
+    "interaction_id": 27,
     "from_nodes": [
       4
     ],
@@ -364,7 +392,7 @@
     "edge_type": "decrease"
   },
   {
-    "interaction_id": 25,
+    "interaction_id": 28,
     "from_nodes": [
       4
     ],
@@ -378,7 +406,7 @@
     "edge_type": "decrease"
   },
   {
-    "interaction_id": 26,
+    "interaction_id": 29,
     "from_nodes": [
       2
     ],
@@ -389,15 +417,15 @@
     "to_color": null,
     "interaction_description": "Falling incomes make borrowers less creditworthiness, which constricts lending activity; the cycle continues.",
     "step_id": 2,
-    "edge_type": null
+    "edge_type": "decrease"
   },
   {
-    "interaction_id": 27,
+    "interaction_id": 30,
     "from_nodes": [
       6
     ],
     "to_nodes": [
-      12
+      13
     ],
     "from_color": null,
     "to_color": null,
@@ -406,7 +434,7 @@
     "edge_type": "invalid"
   },
   {
-    "interaction_id": 28,
+    "interaction_id": 31,
     "from_nodes": [
       0
     ],
@@ -420,12 +448,12 @@
     "edge_type": null
   },
   {
-    "interaction_id": 29,
+    "interaction_id": 32,
     "from_nodes": [
       8,10
     ],
     "to_nodes": [
-      15
+      16
     ],
     "from_color": null,
     "to_color": null,
@@ -434,9 +462,9 @@
     "edge_type": null
   },
   {
-    "interaction_id": 30,
+    "interaction_id": 33,
     "from_nodes": [
-      15
+      16
     ],
     "to_nodes": [
       9
@@ -448,9 +476,9 @@
     "edge_type": "decrease"
   },
   {
-    "interaction_id": 31,
+    "interaction_id": 34,
     "from_nodes": [
-      15
+      16
     ],
     "to_nodes": [
       8
@@ -462,7 +490,7 @@
     "edge_type": null
   },
   {
-    "interaction_id": 32,
+    "interaction_id": 35,
     "from_nodes": [
       8
     ],
@@ -470,15 +498,15 @@
       10
     ],
     "from_color": null,
-    "to_color": null,
+    "to_color": ["red"],
     "interaction_description": "Investors are unwilling to continue lending because of debt defaults and restructuring.",
     "step_id": 3,
-    "edge_type": null
+    "edge_type": "decrease"
   },
   {
-    "interaction_id": 33,
+    "interaction_id": 36,
     "from_nodes": [
-      10
+      11
     ],
     "to_nodes": [
       9
@@ -490,7 +518,7 @@
     "edge_type": "decrease"
   },
   {
-    "interaction_id": 34,
+    "interaction_id": 37,
     "from_nodes": [
       4
     ],
@@ -504,7 +532,7 @@
     "edge_type": null
   },
   {
-    "interaction_id": 35,
+    "interaction_id": 38,
     "from_nodes": [
       9
     ],
@@ -518,12 +546,12 @@
     "edge_type": null
   },
   {
-    "interaction_id": 36,
+    "interaction_id": 39,
     "from_nodes": [
       2
     ],
     "to_nodes": [
-      13
+      14
     ],
     "from_color": ["red"],
     "to_color": ["green"],
@@ -532,12 +560,12 @@
     "edge_type": null
   },
   {
-    "interaction_id": 37,
+    "interaction_id": 40,
     "from_nodes": [
-      10
+      11
     ],
     "to_nodes": [
-      11
+      12
     ],
     "from_color": null,
     "to_color": null,
@@ -546,9 +574,9 @@
     "edge_type": null
   },
   {
-    "interaction_id": 38,
+    "interaction_id": 41,
     "from_nodes": [
-      11
+      12
     ],
     "to_nodes": [
       4
@@ -557,10 +585,10 @@
     "to_color": ["red"],
     "interaction_description": "This leads asset values to fall.",
     "step_id": 3,
-    "edge_type": null
+    "edge_type": "decrease"
   },
   {
-    "interaction_id": 39,
+    "interaction_id": 42,
     "from_nodes": [
       4
     ],
@@ -574,12 +602,12 @@
     "edge_type": "decrease"
   },
   {
-    "interaction_id": 40,
+    "interaction_id": 43,
     "from_nodes": [
-      4,2,13
+      4,2,14
     ],
     "to_nodes": [
-      9
+      10
     ],
     "from_color": ["red", "red", "green"],
     "to_color": ["red"],
@@ -588,7 +616,7 @@
     "edge_type": "decrease"
   },
   {
-    "interaction_id": 41,
+    "interaction_id": 44,
     "from_nodes": [
       4
     ],
