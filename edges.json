@@ -205,7 +205,7 @@
     ],
     "from_color": null,
     "to_color": null,
-    "interaction_description": "Lending increased and became riskier, increasingly occurring outside the regulated and protected banking system. Financial institutions built new channels ("shadow banking") to get around the more established and better-regulated ones because it is initially advantageous to everyone involved. Fewer regulations make it cheaper to lend, borrowers get lower rates and easier terms, and investors get a small boost to returns. Shadow banks make these new debt assets seem safe via guarantees or through asset packaging. Often, these “innovations” lead to the crisis.",
+    "interaction_description": "Lending increased and became riskier, increasingly occurring outside the regulated and protected banking system. Financial institutions built new channels ('shadow banking') to get around the more established and better-regulated ones because it is initially advantageous to everyone involved. Fewer regulations make it cheaper to lend, borrowers get lower rates and easier terms, and investors get a small boost to returns. Shadow banks make these new debt assets seem safe via guarantees or through asset packaging. Often, these “innovations” lead to the crisis.",
     "step_id": 1,
     "edge_type": null
   },
